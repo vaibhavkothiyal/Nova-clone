@@ -1,0 +1,69 @@
+/* div{
+    border: 1px solid red;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarLogoImg{
+    width: 100px;
+}
+.NavbarContainer{
+    padding: 15px 15px;
+    background-color: rgb(241, 240, 240);
+}
+.navBarParent{
+    display: flex;
+}
+.navbarChild1{
+    align-self: center;
+}
+.navbarChild2{
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 45px;
+}
+.navbarChild2>div{
+    cursor: pointer;
+    color: rgba(0,0,0,.5);
+    font-weight: 600;
+    min-height: 25px;
+    align-self: center;
+}
+.navbarChild2>div:hover{
+color: rgb(59, 59, 59);
+}
+.active{
+    color: rgb(59, 59, 59) !important;
+}
+.login-get-in-touch-parent{
+    display: flex;
+    column-gap: 10px;
+}
+.mainNavbarLogin{
+    border: 1px solid rgb(198, 198, 199);
+    color: rgb(112, 112, 112) !important;
+    padding: 8px 25px;
+    border-radius: 6px;
+}
+.mainNavbarGetInTouch{
+    color: white !important;
+    padding: 8px 25px;
+    background-color: #39aba3;
+    border-radius: 6px;
+}
+.mainNavbarLogin:hover{
+    background-color: #e6eff5;
+    transition: background-color 0.3s ease-in;
+}
+.mainNavbarGetInTouch:hover{
+    background-color: #307571;
+    transition: background-color 0.3s ease-in;
+}
+.loginArroyIcon{
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
